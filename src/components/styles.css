@@ -7,12 +7,17 @@ body {
   h1, h2, p, ul, li {
     font-family: sans-serif;
   }
+  .header {
+      height: 20vh;
+      width: 100vw;
+  }
   ul.header li {
     display: inline;
     list-style-type: none;
     margin: 0;
   }
   ul.header {
+    height: 100%;
     background-color: lightblue;
     padding: 0;
   }
@@ -34,4 +39,8 @@ body {
   }
   .content li {
     margin-bottom: 10px;
+  }
+
+  .active {
+    background-color: #0099FF;
   }
